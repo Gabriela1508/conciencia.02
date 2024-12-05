@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('ceu-estrelado_1048-11828.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(2, 2, 2);
+    margin: 0;
+    padding: 0;
+}
+
+.container.principal {
+    text-align: center;
+    padding: 30px;
+}
+
+.titulo1 {
+
+    font-family: "Sedan SC", serif;
+    font-size: 3em;
+    color: rgb(253, 253, 253);
+}
+
+.lista-personagens {
+    list-style-type: style type nome;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.lista-personagens .img {
+    text-align: center;
+}
+
+.lista-personagens .botao {
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+}
+
+.lista-personagens img {
+    max-width: 200px;
+    max-height: 200px;
+    border: 3px solid #333;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.lista-personagens img:hover {
+    transform: scale(1.1);
+}
+
+.s-2{
+    font-size: 30px;
+    font-family: "Indie Flower", cursive;
+    padding: 20px;
+    color: white;
+
+}
+
+.s-3{
+    font-size: 25px;
+    font-family: "Lora", serif;
+    color:aliceblue;
+    padding: 50px;
+}
